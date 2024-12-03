@@ -1,3 +1,3 @@
-flask
-tabulate
-google-cloud-logging
+Flask==2.0.2
+requests==2.26.0
+Werkzeug==2.2.2

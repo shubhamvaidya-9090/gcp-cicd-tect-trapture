@@ -1,48 +1,30 @@
-# Real-time Cricket Score Application with Kubernetes Deployment
+# Google Cloud DevOps Project: Deploying a Live Weather App on Cloud Run
 
-Within this repository, you'll discover the essential source code and deployment files needed to orchestrate a Real-time Cricket Score Application on Kubernetes.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Demo Video](#demo-video)
-
-
+Within this repository, you'll discover the essential source code and deployment files needed to orchestrate a live weather app on Cloud Run using Docker. 🌐🚀
 
 ## Overview
 
-This project revolves around the following steps:
+In this project, I'll walk you through building a Python weather app, containerizing it with Docker, and deploying it on Cloud Run. We'll leverage the OpenWeather API for live weather updates! 🐍🌦️ Moreover, the entire process will be automated with a CI/CD pipeline using Google Cloud Build! 🚀
 
-- Retrieving real-time cricket data through the Cricbuzz API using Python.
-- Converting raw data into a readable format and displaying it on a Python Flask Application's webpage.
-- Creating a Docker container image for the application.
-- Uploading the container image to the Google Container Registry.
-- Deploying the application on a Kubernetes Cluster.
+## Key Highlights
 
-## Tech Stack
+- 🐍 Developed the application using Python.
+- 🌐 Integrated the robust OpenWeather API for precise and current weather information.
+- 📦 Deployed the app on Google Cloud Run as a Container.
+- ☁️ Automated the entire CI/CD pipeline seamlessly with Google Cloud Build and GitHub.
 
-- Python
-- Flask
-- Docker
-- Kubernetes
-- Google Cloud
-- Cricbuzz API
+## Tools and Technology
 
-## Prerequisites
+- **Docker:** 🐳
+- **Cloud Run:** ☁️
+- **GitHub:** 🐙
+- **Python:** 🐍
+- **Google Cloud Build:** 🛠️
+- **OpenWeather API:** 🌦️
 
-- Python installation
-- Cricbuzz API Key
-- Google Cloud Project
+## Resources
 
-## Installation
+Feel free to dive in, explore the code, and follow along with the blog for a comprehensive understanding of deploying a live weather app on Google Cloud using DevOps practices!
 
-Guide on setting up the application locally:
-
-1. Clone this repository: `git clone https://github.com/vishal-bulbule/real-time-crick-score-app`
-
-## Demo Video
-
-Check out our demo video on YouTube showcasing the application:
-[[Demo Video]](https://youtu.be/4HJ1D1nh2Yc?si=sQu4VT9B0E2aA0pf)
+Please refer below youtube video to deploy this weather-app on Google Cloud Run.
+https://youtu.be/jyuz0vfrFps
