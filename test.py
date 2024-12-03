@@ -1,10 +1,10 @@
 import requests
 
-url = "https://cricbuzz-cricket.p.rapidapi.com/matches/v1/recent"
+url = "https://cricbuzz-cricket.p.rapidapi.com/schedule/v1/international"
 
 headers = {
-	"x-rapidapi-key": "173db70cf6msh7c7494f4639582bp1c16e1jsnb058a4789aba",
-	"x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com"
+    "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
+    "X-RapidAPI-Key": "1bd0a14833mshc18ed4be5953504p1236e8jsn709d3a0bc623"  # Replace with your RapidAPI key
 }
 response = requests.get(url, headers=headers)
 print(response.json())
