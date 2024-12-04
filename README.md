@@ -18,7 +18,7 @@ In this project, I'll walk you through building a Python weather app, containeri
 - **Docker:** 🐳
 - **Cloud Run:** ☁️
 - **GitHub:** 🐙
-- **Python:** 🐍
+- **Python:** 
 - **Google Cloud Build:** 🛠️
 - **OpenWeather API:** 🌦️
 
