@@ -13,7 +13,6 @@ In this project, I'll walk you through building a Python weather app, containeri
 - 📦 Deployed the app on Google Cloud Run as a Container.
 - ☁️ Automated the entire CI/CD pipeline seamlessly with Google Cloud Build and GitHub.
 
-
 ## Tools and Technology
 
 - **Docker:** 🐳
